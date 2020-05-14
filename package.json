@@ -1,0 +1,12 @@
+{
+  "name": "reactreduxnodedemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"cd server && nodemon app.js\" \"cd client && npm start\""
+  },
+  "dependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
